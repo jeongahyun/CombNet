@@ -15,7 +15,7 @@ import os
 
 class DataGen(Dataset):
     def __init__(self):
-        self.base_dir = '../datasets'
+        self.base_dir = 'datasets'
         self.classes = ['akiec', 'bcc', 'bkl', 'df', 'mel', 'nv', 'vasc']
         self.imgs = []
         self.target = [[0 for i in range(7)] for j in range(115 * 7)]

@@ -32,7 +32,7 @@ The code is developed under the following software:
 * Ubuntu 16.04.6 LTS
 * CUDA V10.1.243
 * Python 3.6.10
-* PyTorch
+* PyTorch 1.5.0
 
 ### Usage
 ```
