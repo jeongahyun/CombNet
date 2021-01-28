@@ -2,7 +2,7 @@
 
 ![result](imgs/result.png)  
   
-This is a Pytorch implementation of CombNet [(paper here)](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE09410354&mark=0&useDate=&bookmarkCnt=0&ipRange=N&accessgl=Y&language=ko_KR)
+This is a Pytorch implementation of CombNet. [(paper here)](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE09410354&mark=0&useDate=&bookmarkCnt=0&ipRange=N&accessgl=Y&language=ko_KR)  
 **CombNet** is a neural network created for image classification: conceived in the feature pyramid structure.
 Uploaded codes are written in **pytorch** and are intended to classify skin diseases.
 I used datasets from [kaggle - Skin Cancer MNIST: HAM10000](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)  
