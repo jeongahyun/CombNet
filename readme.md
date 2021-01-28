@@ -2,6 +2,7 @@
 
 ![result](imgs/result.png)  
   
+This is a Pytorch implementation of CombNet [(paper here)](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE09410354&mark=0&useDate=&bookmarkCnt=0&ipRange=N&accessgl=Y&language=ko_KR)
 **CombNet** is a neural network created for image classification: conceived in the feature pyramid structure.
 Uploaded codes are written in **pytorch** and are intended to classify skin diseases.
 I used datasets from [kaggle - Skin Cancer MNIST: HAM10000](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)  
@@ -33,22 +34,3 @@ The code is developed under the following software:
 * CUDA V10.1.243
 * Python 3.6.10
 * PyTorch 1.5.0
-
-### Usage
-```
-Diagnosis of skin diseases using multi-scale features
- |
- ├─ CombNet.py     : Main execution file
- |
- └─ dataarrange.py : Divide datasets by label and store them in separate folders
-```
-1. Download the datasets
-2. Get categorized folders using `dataarrange.py`  
-```python dataarrange.py```
-3. Adjust the number of files (Remove some files randomly so that all folders have the same number of files)
-4. Run `CombNet.py`  
-```python CombNet.py```
-  
-`CombNet.py` includes the following features:  
-* Data loading
-* Model training & acc plotting
